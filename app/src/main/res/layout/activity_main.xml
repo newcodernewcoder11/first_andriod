@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="Contact Registration Form"
+    android:textColor="@color/white"
+    android:textSize="20dp"
+    android:background="@color/black"
+    android:padding="10dp"
+    android:textAlignment="center"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter person name"
+        android:background="@color/white"
+        android:id="@+id/name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="110dp"
+        android:hint="Enter email address"
+        android:background="@color/white"
+        android:id="@+id/email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:hint="Enter phone number"
+        android:background="@color/white"
+        android:id="@+id/phone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="230dp"
+        android:hint="Enter  profession/title"
+        android:background="@color/white"
+        android:id="@+id/profession" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70"
+        android:layout_marginTop="290dp"
+        android:text="Save contact"
+        android:textSize="30dp"
+        android:id="@+id/add"/>
+
+
+
+
+
+
+
+</RelativeLayout>
